@@ -1,16 +1,19 @@
 # IPL Score Prediction
 This is used to predict the IPL Score of the team by taking inputs.
 
-<h1>Prerequisites</h1>
+# Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
-<h1>Project Structure</h1>
+# Project Structure
 This project has four major parts :
+1.app.py - This contains Flask APIs that receives Batting team, Bowling team and other details through GUI or API calls, computes the precited value based on our model and returns it.
+2.templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 
-app.py - This contains Flask APIs that receives Batting team, Bowling team and other details through GUI or API calls, computes the precited value based on our model and returns it.
-templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+# Running the Project
 Ensure that you are in the project home directory. Create the machine learning model by running below command -
+```
 python app.py
+```
 This would create a serialized version of our model into a file iplscores.pkl
 
 Run app.py using below command to start Flask API
