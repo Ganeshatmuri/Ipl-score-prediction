@@ -1,4 +1,4 @@
-IPL Score Prediction</h1>
+###IPL Score Prediction
 This is used to predict the IPL Score of the team by taking inputs.
 
 <h1>Prerequisites</h1>
