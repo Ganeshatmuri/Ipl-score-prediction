@@ -7,7 +7,7 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 <h1>Project Structure</h1>
 This project has four major parts :
 
-app.py - This contains Flask APIs that receives Batting team, Bowling team and other details through GUI or API calls, computes the precited value based on our model and returns it.
+app.py - This contains Flask APIs that receives Batting team, Bowling team and other details through GUI or API calls, computes the precited value based on our model and returns it.\n
 templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 Ensure that you are in the project home directory. Create the machine learning model by running below command -
 python app.py
